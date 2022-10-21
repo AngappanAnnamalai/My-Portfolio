@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'HarmoniaSans';
+      src: url(assets/fonts/eb2d17067a00bd54e6ed4f5087227b5a.woff2) format('woff2'), /* Super Modern Browsers */
+           url(assets/fonts/f51120985905cca5e90fadc4dd759b1a.woff) format('woff'), /* Pretty Modern Browsers */
+           url(assets/fonts/aa72cf7f5530ecb257b1922b441594c9.ttf)  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700;
+    font-style: normal;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html,
+body
+{
+    height: 100vh;
+}
+
+.webgl
+{
+    /* position: fixed; */
+    margin-top: 2%;
+    margin-left: 2%;
+    /* transform: translate(0%, -50%); */
+    outline: none;
+    border-radius: 20px;
+    float: left;
+}
+
+
+.contentBox {   
+    float: inline-end;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+
+.contentBox h3 {
+    font-size: 2.5rem;
+    color: rgb(30, 30, 30);
+}
+
+.contentBox p {
+    font-size: 1rem;
+    color: rgb(30, 30, 30);
+    text-overflow: clip;
+}
+
+.socialLinks {
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.socialLinks a {
+    color: blue;
+}
+
+.socialLinks button {
+    padding: 4% 10% 4% 10%;
+    border: none;
+    border-radius: 5%;
+    font-size: 1rem;
+}
+
+.blueButton {
+    background-color: #eee;
+    color: #053eff;
+}
+
+.darkBlueButton {
+    background-color: #eee;
+    color: #053eff;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
