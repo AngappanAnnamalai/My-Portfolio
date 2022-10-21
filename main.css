@@ -1,9 +1,27 @@
 @font-face {
     font-family: 'HarmoniaSans';
+      src: url(assets/fonts/2590c4ce803bc5a782c67e3999679ca1.woff2) format('woff2'), /* Super Modern Browsers */
+           url(assets/fonts/30c52a948de89d7589c7e63ff93e1bcc.woff) format('woff'), /* Pretty Modern Browsers */
+           url(assets/fonts/dede1361379810144df9a5ba82a46eed.ttf)  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HarmoniaSans';
       src: url(assets/fonts/eb2d17067a00bd54e6ed4f5087227b5a.woff2) format('woff2'), /* Super Modern Browsers */
            url(assets/fonts/f51120985905cca5e90fadc4dd759b1a.woff) format('woff'), /* Pretty Modern Browsers */
            url(assets/fonts/aa72cf7f5530ecb257b1922b441594c9.ttf)  format('truetype'); /* Safari, Android, iOS */
     font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HarmoniaSans';
+      src: url(assets/fonts/2075d6323bb1b5fad07affc1221d3150.woff2) format('woff2'), /* Super Modern Browsers */
+           url(assets/fonts/f85373e6c139bfef1285aa8f065ee5ec.woff) format('woff'), /* Pretty Modern Browsers */
+           url(assets/fonts/ecabe068bdb803808ffdead969b02a55.ttf)  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -12,6 +30,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'HarmoniaSans';
 }
 
 html,
@@ -41,11 +60,19 @@ body
 }
 
 .contentBox h3 {
+    font-weight: 900;
     font-size: 2.5rem;
     color: rgb(30, 30, 30);
 }
 
+.contentBox h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(30, 30, 30);
+}
+
 .contentBox p {
+    font-weight: 400;
     font-size: 1rem;
     color: rgb(30, 30, 30);
     text-overflow: clip;
@@ -56,26 +83,55 @@ body
     padding: 2%;
 }
 
-.socialLinks a {
-    color: blue;
-}
-
 .socialLinks button {
+    margin-right: 2%;
     padding: 4% 10% 4% 10%;
     border: none;
     border-radius: 5%;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 .blueButton {
-    background-color: #eee;
+    background-color: #053eff;
+    color: #fff;
+}
+
+.blueButton:hover {
+    background-color: #ddd;
     color: #053eff;
 }
 
 .darkBlueButton {
-    background-color: #eee;
-    color: #053eff;
+    background-color: #0077b5;
+    color: #fff;
 }
+
+.darkBlueButton:hover {
+    background-color: #ddd;
+    color: #0077b5;
+}
+
+.linkColorB {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkColorB:hover {
+    color: #053eff;
+    text-decoration: none;
+}
+
+.linkColorL {
+    color: #fff;
+    text-decoration: none; 
+}
+
+.linkColorL:hover {
+    color: #0077b5;
+    text-decoration: none; 
+}
+
 
 
 
