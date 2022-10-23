@@ -41,10 +41,8 @@ body
 
 .webgl
 {
-    /* position: fixed; */
     margin-top: 2%;
     margin-left: 2%;
-    /* transform: translate(0%, -50%); */
     outline: none;
     border-radius: 20px;
     float: left;
@@ -84,52 +82,35 @@ body
 }
 
 .socialLinks button {
+    border-radius: 5%;
     margin-right: 2%;
     padding: 4% 10% 4% 10%;
     border: none;
-    border-radius: 5%;
     font-size: 1rem;
     font-weight: 700;
 }
 
-.blueButton {
+
+.behanceButton {
     background-color: #053eff;
     color: #fff;
 }
 
-.blueButton:hover {
+.behanceButton:hover {
     background-color: #ddd;
     color: #053eff;
+    cursor: pointer;
 }
 
-.darkBlueButton {
+.linkedinButton {
     background-color: #0077b5;
     color: #fff;
 }
 
-.darkBlueButton:hover {
+.linkedinButton:hover {
     background-color: #ddd;
     color: #0077b5;
-}
-
-.linkColorB {
-    color: #fff;
-    text-decoration: none;
-}
-
-.linkColorB:hover {
-    color: #053eff;
-    text-decoration: none;
-}
-
-.linkColorL {
-    color: #fff;
-    text-decoration: none; 
-}
-
-.linkColorL:hover {
-    color: #0077b5;
-    text-decoration: none; 
+    cursor: pointer;
 }
 
 
